@@ -11,13 +11,13 @@ const authOptions: AuthOptions = {
     }),
   ],
 
-  pages: {
-    signIn: "/",
-  },
-  debug: process.env.NODE_ENV === "development",
-  session: {
-    strategy: "jwt",
-  },
+//   pages: {
+//     signIn: "/",
+//   },
+//   debug: process.env.NODE_ENV === "development",
+//   session: {
+//     strategy: "jwt",
+//   },
 
   secret: process.env.NEXTAUTH_SECRET,
 }
