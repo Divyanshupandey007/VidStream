@@ -119,7 +119,8 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ videoSrc }) => {
 
   const totalDuration = useMemo(
     () => formatTimestamp(videoRef.current?.duration || 0),
-    []
+    //[]
+    [formatTimestamp]
   );
 
   const updateTimestamp = () => {

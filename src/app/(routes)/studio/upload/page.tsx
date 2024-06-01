@@ -21,7 +21,8 @@ export default function UploadPage() {
 
   const uploadVideoModal = useContext(UploadVideoModalContext);
 
-  useEffect(() => uploadVideoModal?.onOpen(), []);
+  // useEffect(() => uploadVideoModal?.onOpen(), []);
+  useEffect(() => uploadVideoModal?.onOpen(), [uploadVideoModal]);
 
   const router = useRouter();
 
