@@ -5,5 +5,11 @@
     "Codegeex.Comment.LanguagePreference": "English",
     "Codegeex.Chat.LanguagePreference": "English",
     "Codegeex.SidebarUI.LanguagePreference": "English",
-    "Codegeex.CompletionModel": "CodeGeeX Pro[Beta]"
+    "Codegeex.CompletionModel": "CodeGeeX Pro[Beta]",
+    "typescript.validate.enable": false,
+    "files.exclude": {
+    "**/Recommendations.ts": true,
+}
+
+
   }
